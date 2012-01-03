@@ -12,4 +12,4 @@
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-define("_MB_QUOTES_RANDOM_OR_FIXED_QUOTE", "Zeigt Zitate in zufälliger Reihenfolge (0), oder statis an (Zitat ID eintragen)");
+define("_MB_QUOTES_RANDOM_OR_FIXED_QUOTE", "Display random quotes (0) or a static quote (enter quote ID)");

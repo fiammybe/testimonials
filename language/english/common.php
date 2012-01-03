@@ -13,13 +13,13 @@
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
 // quote
-define("_CO_QUOTES_QUOTE_CREATOR", "Autor");
-define("_CO_QUOTES_QUOTE_CREATOR_DSC", "Person, von der dieses Zitat stammt.");
-define("_CO_QUOTES_QUOTE_DESCRIPTION", "Zitat");
-define("_CO_QUOTES_QUOTE_DESCRIPTION_DSC", "Hier ist das Zitat einzutragen.");
-define("_CO_QUOTES_QUOTE_DATE", "Datum");
-define("_CO_QUOTES_QUOTE_DATE_DSC", "Geben sie das Jahr an, indem das Zitat gemacht wurde.");
+define("_CO_QUOTES_QUOTE_CREATOR", "Author");
+define("_CO_QUOTES_QUOTE_CREATOR_DSC", "The person to which you attribute this quote.");
+define("_CO_QUOTES_QUOTE_DESCRIPTION", "Quote");
+define("_CO_QUOTES_QUOTE_DESCRIPTION_DSC", "Enter your quotation here.");
+define("_CO_QUOTES_QUOTE_DATE", "Date");
+define("_CO_QUOTES_QUOTE_DATE_DSC", "The date the quote was made (usually, a year).");
 define("_CO_QUOTES_QUOTE_ONLINE_STATUS", "Online?");
-define("_CO_QUOTES_QUOTE_ONLINE_STATUS_DSC", "Schalten Sie dieses Zitat online, oder offline.");
+define("_CO_QUOTES_QUOTE_ONLINE_STATUS_DSC", "Toggle this quote online or offline.");
 define("_CO_QUOTES_QUOTE_ONLINE", "Online");
 define("_CO_QUOTES_QUOTE_OFFLINE", "Offline");

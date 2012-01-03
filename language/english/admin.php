@@ -22,15 +22,15 @@ define("_AM_QUOTES_REQUIREMENTS_SUPPORT", "Should you have any question or conce
 
 // Quote
 define("_AM_QUOTES_QUOTES", "Quotes");
-define("_AM_QUOTES_QUOTES_DSC", "Alle Zitate des Moduls");
-define("_AM_QUOTES_QUOTE_CREATE", "Zitat hinzufügen");
-define("_AM_QUOTES_QUOTE", "Zitat");
-define("_AM_QUOTES_QUOTE_CREATE_INFO", "Füllen Sie das folgende Formular aus, um ein neues Zitat zu erstellen.");
-define("_AM_QUOTES_QUOTE_EDIT", "Zitat bearbeiten");
-define("_AM_QUOTES_QUOTE_EDIT_INFO", "Füllen Sie das folgende Formular aus, um dieses Zitat zu bearbeiten.");
-define("_AM_QUOTES_QUOTE_MODIFIED", "Das Zitat wurde erfolgreich bearbeitet.");
-define("_AM_QUOTES_QUOTE_CREATED", "Das Zitat wurde erfolgreich erstellt.");
-define("_AM_QUOTES_QUOTE_VIEW", "Zitat-Informationen");
-define("_AM_QUOTES_QUOTE_VIEW_DSC", "Hier stehen alle Informationen zum Zitat.");
-define("_AM_QUOTES_QUOTE_ONLINE", "Zitat wurde online geschaltet.");
-define("_AM_QUOTES_QUOTE_OFFLINE", "Zitat wurde offline geschaltet.");
+define("_AM_QUOTES_QUOTES_DSC", "All quotes in the module");
+define("_AM_QUOTES_QUOTE_CREATE", "Add a quote");
+define("_AM_QUOTES_QUOTE", "Quote");
+define("_AM_QUOTES_QUOTE_CREATE_INFO", "Fill-out the following form to create a new quote.");
+define("_AM_QUOTES_QUOTE_EDIT", "Edit this quote");
+define("_AM_QUOTES_QUOTE_EDIT_INFO", "Fill-out the following form in order to edit this quote.");
+define("_AM_QUOTES_QUOTE_MODIFIED", "The quote was successfully modified.");
+define("_AM_QUOTES_QUOTE_CREATED", "The quote has been successfully created.");
+define("_AM_QUOTES_QUOTE_VIEW", "Quote info");
+define("_AM_QUOTES_QUOTE_VIEW_DSC", "Here is the info about this quote.");
+define("_AM_QUOTES_QUOTE_ONLINE", "Quote toggled online.");
+define("_AM_QUOTES_QUOTE_OFFLINE", "Quote toggled offline.");

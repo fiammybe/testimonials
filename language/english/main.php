@@ -12,5 +12,5 @@
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-define("_MD_QUOTES_ADMIN_PAGE", ":: Administration ::");
-define("_MD_QUOTES_ALL_QUOTES", "Alle Zitate");
+define("_MD_QUOTES_ADMIN_PAGE", ":: Admin page ::");
+define("_MD_QUOTES_ALL_QUOTES", "All quotes");

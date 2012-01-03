@@ -8,7 +8,7 @@
  * @author		Madfish (Simon Wilkinson) <simon@isengard.biz>
  * @package		quotes
  * @version		$Id$
- */ 
+ */
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 

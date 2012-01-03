@@ -1,0 +1,9 @@
+How to install Quotes
+=========================
+
+Quotes is installed as a regular ImpressCMS module, which means you should copy the complete /quotes folder into the /modules directory of your website. Then, log in to your site as administrator, go to System Admin > Modules, look for the Quotes icon in the list of uninstalled modules and click in the install icon. Follow the directions in the screen and you'll be ready to go.
+
+PLEASE NOTE
+-----------
+
+The only part of the module visible from the user side is the random quotes block. You need to edit the block options to make it visible and accessible to user groups in order to use the module.

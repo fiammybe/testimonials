@@ -62,13 +62,13 @@ class mod_quotes_Quote extends icms_ipf_Object {
 				. '/admin/quote.php?quote_id=' . $this->getVar('quote_id')
 				. '&amp;op=changeStatus">';
 		if (!$status) {
-			$button .= '<img src="../images/button_cancel.png" alt="' . _CO_QUOTES_QUOTE_OFFLINE 
-				. '" title="' . _CO_QUOTES_QUOTE_OFFLINE . '" /></a>';
+			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_cancel.png" alt="' 
+				. _CO_QUOTES_QUOTE_OFFLINE . '" title="' . _CO_QUOTES_QUOTE_OFFLINE . '" /></a>';
 			
 		} else {
 			
-			$button .= '<img src="../images/button_ok.png" alt="' . _CO_QUOTES_QUOTE_ONLINE
-				. '" title="' . _CO_QUOTES_QUOTE_ONLINE . '" /></a>';
+			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_cancel.png" alt="' 
+				. _CO_QUOTES_QUOTE_ONLINE . '" title="' . _CO_QUOTES_QUOTE_ONLINE . '" /></a>';
 		}
 		return $button;
 	}

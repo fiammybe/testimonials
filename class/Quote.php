@@ -67,7 +67,7 @@ class mod_quotes_Quote extends icms_ipf_Object {
 			
 		} else {
 			
-			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_cancel.png" alt="' 
+			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_ok.png" alt="' 
 				. _CO_QUOTES_QUOTE_ONLINE . '" title="' . _CO_QUOTES_QUOTE_ONLINE . '" /></a>';
 		}
 		return $button;

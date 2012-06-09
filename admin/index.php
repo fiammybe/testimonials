@@ -12,5 +12,5 @@
  * @version		$Id$
  */
 
-header("location: quote.php");
+include 'quote.php';
 exit;

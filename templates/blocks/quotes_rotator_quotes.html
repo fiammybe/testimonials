@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" media="all" href="<{$icms_url}>/modules/quotes/css/style.css" />
+<script src="<{$icms_url}>/modules/quotes/js/jquery.quovolver.min.js"></script>
+<{literal}>
+<script>
+    $(document).ready(function() {
+        $('#quotes1 .quotes').quovolver({
+            children        : 'li',
+        transitionSpeed : <{/literal}><{$block.transition_speed}><{literal}>,
+        autoplaySpeed : <{/literal}><{$block.autoplay_speed}><{literal}>,
+ transition : <{/literal}>'<{$block.transition}><{literal}>'
+        });
+        // Example Two
+       
+    });
+    </script><{/literal}>
+
+<div id="quotes1">
+	<div class="quotes">
+		<ul>                    
+			<{foreach item = quote from = $block.random_quotes}>
+			<li>
+				<blockquote>
+					<div class="quote_description"><p><{$quote.description}></p></div>
+					<{if $quote.creator && $quote.date}>
+					<div class="quote_creator"><cite><{$quote.creator}></cite></div>
+					<div class="quote_date"><{$quote.date}></div>
+					<{elseif $quote.creator}>
+					<div class="quote_creator"><cite><{$quote.creator}></cite></div>
+					<{/if}>
+				</blockquote>
+			</li>
+			<{/foreach}>
+	</div>
+</div>

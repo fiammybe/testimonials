@@ -20,3 +20,5 @@ define("_MI_QUOTES_TEMPLATES", "Templates");
 // Blocks
 define("_MI_QUOTES_RANDOM_QUOTES", "Random quotes");
 define("_MI_QUOTES_RANDOM_QUOTESDSC", "Displays random quotations.");
+define("_MI_QUOTES_ROTATION_QUOTES", "Quotes rotation");
+define("_MI_QUOTES_ROTATION_QUOTESDSC", "Displays rotation of quotes.");

@@ -86,3 +86,12 @@ $modversion['blocks'][1] = array(
 	"edit_func"					=> "quotes_random_quotes_edit",
 	"options"					=> "0",
 	"template"					=> "quotes_random_quotes.html");
+
+$modversion['blocks'][] = array(
+	'file' => 'quotes_rotator_quotes.php',
+	'name' => _MI_QUOTES_ROTATION_QUOTES,
+	'description' => _MI_QUOTES_ROTATION_QUOTESDSC,
+	'show_func' => 'quotes_rotator_quotes_show',
+	'edit_func' => 'quotes_rotator_quotes_edit',
+	'options' => '5|0|300|6000|fade',
+	'template' => 'quotes_rotator_quotes.html');

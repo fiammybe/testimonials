@@ -13,3 +13,8 @@
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
 define("_MB_QUOTES_RANDOM_OR_FIXED_QUOTE", "Zeigt Zitate in zufälliger Reihenfolge (0), oder statis an (Zitat ID eintragen)");
+define("_MB_QUOTES_RANDOM_OR_ORDERED_QUOTE", "Display random quotes or ordered quotes (ID. ASC)");
+define("_MB_QUOTES_ROTATION_LIMIT", "Set the number of quotes for rotation");
+define("_MB_QUOTES_TRANSITIONSPEED", "This is the speed that each animation will take, not the entire transition (numeric value in ms.). Default:300");
+define("_MB_QUOTES_AUTOPLAYSPEED", "Duration before each transition (numeric value in ms.). Default:6000");
+define("_MB_QUOTES_TRANSITION", "The style of the transition. Currently there are only two available options, fade and basic. Default:fade");

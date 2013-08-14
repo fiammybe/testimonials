@@ -20,7 +20,7 @@ $modversion = array(
 	"version"					=> 1.01,
 	"description"				=> _MI_QUOTES_MD_DESC,
 	"author"					=> "Madfish (Simon Wilkinson)",
-	"credits"					=> "",
+	"credits"					=> "Thanks to Debianus for the quote rotator block",
 	"help"						=> "",
 	"license"					=> "GNU General Public License (GPL)",
 	"official"					=> 0,
@@ -33,9 +33,9 @@ $modversion = array(
 	"image"						=> "images/icon_big.png", /* for backward compatibility */
 
 /**  Development information */
-	"status_version"			=> "1.01",
-	"status"					=> "Final",
-	"date"						=> "9/6/2012",
+	"status_version"			=> "1.02",
+	"status"					=> "Beta",
+	"date"						=> "14/8/2013",
 	"author_word"				=> "Use it wisely.",
 
 /** Contributors */

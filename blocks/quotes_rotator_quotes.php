@@ -26,14 +26,13 @@ $quotesModule = icms_getModuleInfo('quotes');
 	$criteria = new icms_db_criteria_Compo();
 	$quotesList = $quotes = array();
 
-	// Get a list of quotes filtered by tag 
-	// Otherwise just get a list of all quotes
+	// Get a list of quotes
 	
-		$criteria->add(new icms_db_criteria_Item('online_status', '1'));
-		$criteria->setSort('quote_id');
-		$criteria->setOrder('ASC');
-		$quote_list = $quotes_quote_handler->getList($criteria);
-		$quote_list = array_flip($quote_list);
+	$criteria->add(new icms_db_criteria_Item('online_status', '1'));
+	$criteria->setSort('quote_id');
+	$criteria->setOrder('ASC');
+	$quote_list = $quotes_quote_handler->getList($criteria);
+	$quote_list = array_keys($quote_list);
 
 // Pick random quotes from the list, if the block preference is so set
 	if ($options[1] == TRUE) 

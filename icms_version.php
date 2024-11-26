@@ -16,16 +16,16 @@ defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
 /**  General Information  */
 $modversion = array(
-	"name"						=> _MI_QUOTES_MD_NAME,
-	"version"					=> 1.01,
+	"name"						=> "Testimonials",
+	"version"					=> "1.1",
 	"description"				=> _MI_QUOTES_MD_DESC,
-	"author"					=> "Madfish (Simon Wilkinson)",
-	"credits"					=> "Thanks to Debianus for the quote rotator block",
+	"author"					=> "fiammybe (David Janssens)",
+	"credits"					=> "Thanks to Debianus for the quote rotator block and Madfish for the initial quote module",
 	"help"						=> "",
 	"license"					=> "GNU General Public License (GPL)",
 	"official"					=> 0,
 	"dirname"					=> basename(dirname(__FILE__)),
-	"modname"					=> "quotes",
+	"modname"					=> "testimonials",
 
 /**  Images information  */
 	"iconsmall"					=> "images/icon_small.png",
@@ -33,15 +33,15 @@ $modversion = array(
 	"image"						=> "images/icon_big.png", /* for backward compatibility */
 
 /**  Development information */
-	"status_version"			=> "1.02",
+	"status_version"			=> "1.1",
 	"status"					=> "Beta",
-	"date"						=> "14/8/2013",
+	"date"						=> "30 Nov 2024",
 	"author_word"				=> "Use it wisely.",
 
 /** Contributors */
-	"developer_website_url"		=> "https://www.isengard.biz",
-	"developer_website_name"	=> "Isengard.biz",
-	"developer_email"			=> "simon@isengard.biz",
+	"developer_website_url"		=> "https://www.github.com/fiammybe/testimonials",
+	"developer_website_name"	=> "Github",
+	"developer_email"			=> "david.j@impresscms.org",
 
 /** Administrative information */
 	"hasAdmin"					=> 1,
@@ -49,7 +49,7 @@ $modversion = array(
 	"adminmenu"					=> "admin/menu.php",
 
 /** Install and update informations */
-	"onInstall"					=> "include/onupdate.inc.php",
+	"onInstall"					=> "include/oninstall.inc.php",
 	"onUpdate"					=> "include/onupdate.inc.php",
 
 /** Search information */
@@ -62,10 +62,10 @@ $modversion = array(
 	"hasComments"				=> 0);
 
 /** other possible types: testers, translators, documenters and other */
-$modversion['people']['developers'][] = "Madfish (Simon Wilkinson)";
+$modversion['people']['developers'][] = "fiammybe (David Janssens)";
 
 /** Manual */
-$modversion['manual']['wiki'][] = "<a href='http://wiki.impresscms.org/index.php?title=Quotes' target='_blank'>English</a>";
+$modversion['manual']['wiki'][] = "<a href='https://github.com/fiammybe/testimonials/blob/master/docs/changelog.txt'>Documentation</a>";
 
 /** Database information */
 $modversion['object_items'][1] = 'quote';
@@ -74,7 +74,7 @@ $modversion["tables"] = icms_getTablesArray($modversion['dirname'], $modversion[
 
 /** Templates information */
 $modversion['templates'] = array(
-	array("file" => "quotes_admin_quote.html", "description" => "Quote admin index."), 
+	array("file" => "quotes_admin_quote.html", "description" => "Quote admin index."),
 	array("file" => "quotes_requirements.html", "description" => "Display missing requirements."));
 
 /** Blocks information */

@@ -1,33 +1,33 @@
-<link rel="stylesheet" type="text/css" media="all" href="<{$icms_url}>/modules/quotes/css/style.css" />
-<script src="<{$icms_url}>/modules/quotes/js/jquery.quovolver.min.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="<{$icms_url}>/modules/testimonials/css/style.css" />
+<script src="<{$icms_url}>/modules/testimonials/js/jquery.quovolver.min.js"></script>
 <{literal}>
 <script>
     $(document).ready(function() {
-        $('#quotes1 .quotes').quovolver({
+        $('#testimonials1 .testimonials').quovolver({
             children        : 'li',
         transitionSpeed : <{/literal}><{$block.transition_speed}><{literal}>,
         autoplaySpeed : <{/literal}><{$block.autoplay_speed}><{literal}>,
  transition : <{/literal}>'<{$block.transition}><{literal}>'
         });
         // Example Two
-       
+
     });
     </script><{/literal}>
 
-<div id="quotes1">
-	<div class="quotes">
-		<ul>                    
-			<{foreach item = quote from = $block.random_quotes}>
+<div id="testimonials1">
+	<div class="testimonials">
+		<ul>
+			<{foreach item = testimonial from = $block.random_testimonials}>
 			<li>
-				<blockquote>
-					<div class="quote_description"><p><{$quote.description}></p></div>
-					<{if $quote.creator && $quote.date}>
-					<div class="quote_creator"><cite><{$quote.creator}></cite></div>
-					<div class="quote_date"><{$quote.date}></div>
-					<{elseif $quote.creator}>
-					<div class="quote_creator"><cite><{$quote.creator}></cite></div>
+				<blocktestimonial>
+					<div class="testimonial_description"><p><{$testimonial.description}></p></div>
+					<{if $testimonial.creator && $testimonial.date}>
+					<div class="testimonial_creator"><cite><{$testimonial.creator}></cite></div>
+					<div class="testimonial_date"><{$testimonial.date}></div>
+					<{elseif $testimonial.creator}>
+					<div class="testimonial_creator"><cite><{$testimonial.creator}></cite></div>
 					<{/if}>
-				</blockquote>
+				</blocktestimonial>
 			</li>
 			<{/foreach}>
 	</div>

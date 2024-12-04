@@ -1,27 +1,27 @@
 <?php
 /**
- * Class representing Quotes quote objects
+ * Class representing Testimonials testimonial objects
  *
  * @copyright	Copyright Madfish (Simon Wilkinson) 2011
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		Madfish (Simon Wilkinson) <simon@isengard.biz>
- * @package		quotes
+ * @package		testimonials
  * @version		$Id$
  */
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-class mod_quotes_Quote extends icms_ipf_Object {
+class mod_testimonials_Testimonial extends icms_ipf_Object {
 	/**
 	 * Constructor
 	 *
-	 * @param mod_quotes_Quote $handler Object handler
+	 * @param mod_testimonials_Testimonial $handler Object handler
 	 */
 	public function __construct(&$handler) {
 		parent::__construct($handler);
 
-		$this->quickInitVar("quote_id", XOBJ_DTYPE_INT, TRUE);
+		$this->quickInitVar("testimonial_id", XOBJ_DTYPE_INT, TRUE);
 		$this->quickInitVar("creator", XOBJ_DTYPE_TXTBOX, FALSE);
 		$this->quickInitVar("description", XOBJ_DTYPE_TXTAREA, TRUE);
 		$this->quickInitVar("date", XOBJ_DTYPE_TXTBOX, FALSE);
@@ -59,16 +59,16 @@ class mod_quotes_Quote extends icms_ipf_Object {
 		
 		$status = $this->getVar('online_status', 'e');
 		$button = '<a href="' . ICMS_URL . '/modules/' . basename(dirname(dirname(__FILE__)))
-				. '/admin/quote.php?quote_id=' . $this->getVar('quote_id')
+				. '/admin/testimonial.php?testimonial_id=' . $this->getVar('testimonial_id')
 				. '&amp;op=changeStatus">';
 		if (!$status) {
 			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_cancel.png" alt="' 
-				. _CO_QUOTES_QUOTE_OFFLINE . '" title="' . _CO_QUOTES_QUOTE_OFFLINE . '" /></a>';
+				. _CO_TESTIMONIALS_TESTIMONIAL_OFFLINE . '" title="' . _CO_TESTIMONIALS_TESTIMONIAL_OFFLINE . '" /></a>';
 			
 		} else {
 			
 			$button .= '<img src="' . ICMS_IMAGES_SET_URL . '/actions/button_ok.png" alt="' 
-				. _CO_QUOTES_QUOTE_ONLINE . '" title="' . _CO_QUOTES_QUOTE_ONLINE . '" /></a>';
+				. _CO_TESTIMONIALS_TESTIMONIAL_ONLINE . '" title="' . _CO_TESTIMONIALS_TESTIMONIAL_ONLINE . '" /></a>';
 		}
 		return $button;
 	}

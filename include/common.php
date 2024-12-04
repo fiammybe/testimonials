@@ -6,19 +6,19 @@
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		Madfish (Simon Wilkinson) <simon@isengard.biz>
- * @package		quotes
+ * @package		testimonials
  * @version		$Id$
  */
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-if (!defined("QUOTES_DIRNAME")) define("QUOTES_DIRNAME", $modversion["dirname"] 
+if (!defined("TESTIMONIALS_DIRNAME")) define("TESTIMONIALS_DIRNAME", $modversion["dirname"] 
 		= basename(dirname(dirname(__FILE__))));
-if (!defined("QUOTES_URL")) define("QUOTES_URL", ICMS_URL."/modules/" . QUOTES_DIRNAME."/");
-if (!defined("QUOTES_ROOT_PATH")) define("QUOTES_ROOT_PATH", ICMS_ROOT_PATH."/modules/" 
-		. QUOTES_DIRNAME . "/");
-if (!defined("QUOTES_IMAGES_URL")) define("QUOTES_IMAGES_URL", QUOTES_URL . "images/");
-if (!defined("QUOTES_ADMIN_URL")) define("QUOTES_ADMIN_URL", QUOTES_URL . "admin/");
+if (!defined("TESTIMONIALS_URL")) define("TESTIMONIALS_URL", ICMS_URL."/modules/" . TESTIMONIALS_DIRNAME."/");
+if (!defined("TESTIMONIALS_ROOT_PATH")) define("TESTIMONIALS_ROOT_PATH", ICMS_ROOT_PATH."/modules/" 
+		. TESTIMONIALS_DIRNAME . "/");
+if (!defined("TESTIMONIALS_IMAGES_URL")) define("TESTIMONIALS_IMAGES_URL", TESTIMONIALS_URL . "images/");
+if (!defined("TESTIMONIALS_ADMIN_URL")) define("TESTIMONIALS_ADMIN_URL", TESTIMONIALS_URL . "admin/");
 
 // Include the common language file of the module
-icms_loadLanguageFile("quotes", "common");
+icms_loadLanguageFile("testimonials", "common");

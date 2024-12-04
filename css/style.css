@@ -1,4 +1,4 @@
-.quotes blockquote {
+.testimonials blocktestimonial {
 font-family: Georgia, serif;
 font-style: italic;
 margin: 0.25em 0;
@@ -7,7 +7,7 @@ line-height: 1.45;
 position: relative;
 color: #383838
 }
-.quotes blockquote:before {
+.testimonials blocktestimonial:before {
 content: "\201C";
 font-size: 43px;
 left: 11px;
@@ -15,7 +15,7 @@ position: absolute;
 top: -16px;
 color: #7a7a7a;
 }
-.quotes blockquote:after {
+.testimonials blocktestimonial:after {
 content: "\201D";
 font-size: 43px;
 left: 11px;
@@ -24,17 +24,17 @@ position: absolute;
 top: 49%;
 color: #7a7a7a;
 }
-.quotes blockquote cite {
+.testimonials blocktestimonial cite {
 color: #999999;
 font-size: 14px;
 margin-top: 5px;
 }
-.quotes blockquote cite:before {
+.testimonials blocktestimonial cite:before {
 content: "\2014 \2009";
 }
-.quotes li {
+.testimonials li {
 list-style: none inside none !important;
 background:none repeat scroll 0 0 transparent!important}
-.quote_description {font-size: 1em}
-.quote_creator{font-style:italic; text-align: right;margin-top:33px}
-.quote_date {font-size:.9em; text-align: right;}
+.testimonial_description {font-size: 1em}
+.testimonial_creator{font-style:italic; text-align: right;margin-top:33px}
+.testimonial_date {font-size:.9em; text-align: right;}

@@ -6,19 +6,19 @@
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		Madfish (Simon Wilkinson) <simon@isengard.biz>
- * @package		quotes
+ * @package		testimonials
  * @version		$Id$
  */ 
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
-define("_MI_QUOTES_MD_NAME", "Quotes");
-define("_MI_QUOTES_MD_DESC", "ImpressCMS Simple Quotes");
-define("_MI_QUOTES_QUOTES", "Quotes");
-define("_MI_QUOTES_TEMPLATES", "Templates");
+define("_MI_TESTIMONIALS_MD_NAME", "Testimonials");
+define("_MI_TESTIMONIALS_MD_DESC", "ImpressCMS Simple Testimonials");
+define("_MI_TESTIMONIALS_TESTIMONIALS", "Testimonials");
+define("_MI_TESTIMONIALS_TEMPLATES", "Templates");
 
 // Blocks
-define("_MI_QUOTES_RANDOM_QUOTES", "Random quotes");
-define("_MI_QUOTES_RANDOM_QUOTESDSC", "Displays random quotations.");
-define("_MI_QUOTES_ROTATION_QUOTES", "Quotes rotation");
-define("_MI_QUOTES_ROTATION_QUOTESDSC", "Displays rotation of quotes.");
+define("_MI_TESTIMONIALS_RANDOM_TESTIMONIALS", "Random testimonials");
+define("_MI_TESTIMONIALS_RANDOM_TESTIMONIALSDSC", "Displays random quotations.");
+define("_MI_TESTIMONIALS_ROTATION_TESTIMONIALS", "Testimonials rotation");
+define("_MI_TESTIMONIALS_ROTATION_TESTIMONIALSDSC", "Displays rotation of testimonials.");

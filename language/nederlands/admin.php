@@ -1,6 +1,6 @@
 <?php
 /**
- * English language constants used in admin section of the module
+ * Dutch language constants used in admin section of the module
  *
  * @copyright	Copyright Madfish (Simon Wilkinson) 2011
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
@@ -10,10 +10,10 @@
  * @version		$Id$
  */
 
-defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
+defined("ICMS_ROOT_PATH") or die("ImpressCMS root path niet gedefiniëerd");
 
 // Requirements
-define("_AM_TESTIMONIALS_REQUIREMENTS", "Testimonials Requirements");
+define("_AM_TESTIMONIALS_REQUIREMENTS", "Testimonials Vereisten");
 define("_AM_TESTIMONIALS_REQUIREMENTS_INFO", "We've reviewed your system, unfortunately it doesn't meet 
 	all the requirements needed for Testimonials to function. Below are the requirements needed.");
 define("_AM_TESTIMONIALS_REQUIREMENTS_ICMS_BUILD", "Testimonials requires at least ImpressCMS 1.3.");

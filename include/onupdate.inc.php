@@ -16,30 +16,30 @@
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
  * @since		1.0
  * @author		Madfish (Simon Wilkinson) <simon@isengard.biz>
- * @package		quotes
+ * @package		testimonials
  * @version		$Id$
  */
 
 defined("ICMS_ROOT_PATH") or die("ICMS root path not defined");
 
 // this needs to be the latest db version
-define('QUOTES_DB_VERSION', 1);
+define('TESTIMONIALS_DB_VERSION', 1);
 
 /**
  * it is possible to define custom functions which will be call when the module is updating at the
  * correct time in update incrementation. Simpy define a function named <direname_db_upgrade_db_version>
  */
 /*
-function quotes_db_upgrade_1() {
+function testimonials_db_upgrade_1() {
 }
-function quotes_db_upgrade_2() {
+function testimonials_db_upgrade_2() {
 }
 */
 
-function icms_module_update_quotes($module) {
+function icms_module_update_testimonials($module) {
     return TRUE;
 }
 
-function icms_module_install_quotes($module) {
+function icms_module_install_testimonials($module) {
 	return TRUE;
 }
